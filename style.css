@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 50vw;
+  height: 425px;
+  border: 2px solid grey;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+
+.colorBar {
+  background-color: aqua;
+  height: 130px;
+  width: 50vw;
+}
+
+.imgBackground {
+  height: 130px;
+  width: 130px;
+  border: 4px solid grey;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 57px;
+  left: 35px;
+}
+
+.userImg {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.myInfo {
+  position: absolute;
+  bottom: 10px;
+  left: 45px;
+  justify-content: space-around;
+}
+
+.iconBox {
+  display: flex;
+}
+
+.icon {
+  height: 30px;
+  width: auto;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.iconText {
+  margin-left: 1em;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+}
